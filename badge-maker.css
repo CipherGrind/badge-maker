@@ -1,0 +1,94 @@
+body {
+    background-color: #0F5959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #0A3A40;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #042326;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.badge-container {
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    width: 3.375in;
+    height: 2.125in;
+    background-color: white;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.badge-section {
+    text-align: center;
+    padding-top: 5px;
+}
+
+canvas {
+    margin: 5px 0;
+    height: 58px;
+}
+
+button, input {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0F5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid #000;
+}
+
+input {
+    width: 290px;
+}
+
+button:hover {
+    background-color: #107361;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.footer {
+    background-color: #0A3A40;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h6{
+    margin: 5px;
+    padding: 0px;
+}

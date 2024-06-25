@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF Gun Login Badge Maker</title>
+    <link rel="stylesheet" type="text/css" href="badge-maker.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bwip-js/4.3.2/bwip-js-min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="header">
+        <h3>RF Gun Login Badge Maker</h3>
+    </div>
+    <div class="container">
+        <h6>Max Length: 40 Characters</h6>
+        <input type="text" id="username" placeholder="Enter Username" maxlength="40">
+        <br><br>
+        <input type="text" id="password" placeholder="Enter Password" maxlength="40">
+        <br><br>
+        <button onclick="generateBadge()">Generate Badge</button>
+        <button onclick="clearBadge()">Clear Badge</button>
+    </div>
+    <div class="badge-container">
+        <div class="badge" id="badge">
+            <div class="badge-section">
+                <h5>Username</h5>
+                <canvas id="usernameBarcode"></canvas>
+                <br><br>
+                <h5>Password</h5>
+                <canvas id="passwordBarcode"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button onclick="downloadBadge()">Download Badge</button>
+    </div>
+
+    <script src="badge-maker.js"></script>
+</body>
+</html>
